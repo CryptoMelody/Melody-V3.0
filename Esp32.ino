@@ -1,8 +1,8 @@
 #include<WiFi.h>
 #include<WebServer.h>
 
-const char* password = "JUt9jcRL"; // our password of the WIFI 
-const char*ssid = "Domolink_637688_R"; // our WIFI name 
+const char* password = "45tawdaw"; // our password of the WIFI 
+const char*ssid = "Dom_R"; // our WIFI name 
 WebServer server(80); // Choose the port of the server 
 short value = 0; // our value to compare with and change (in C++ it's essential to size it in advance)
 #define Led_pin 2 // our LED pin 
