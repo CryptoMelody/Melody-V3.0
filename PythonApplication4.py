@@ -14,13 +14,13 @@ import argparse
 import requests
 v = "1"
 v_1 = "0"
-esp_address = "192.168.8.20"
+esp_address = "164.568.4.15"
 T = True 
 pygame.mixer.init()
 #CHAT-GPT:
 client = OpenAI (
     base_url = "https://api.sambanova.ai/v1", 
-    api_key = "6e69f4f6-9e3c-46f7-97ff-cd5151aa29d9" #use hugging face instead of OpenRouter (blocked site)
+    api_key = "df4654626-9sdf4-789f54-954f-hf798456" #use sambanova instead of OpenRouter (blocked site for me)
     )
 
 model = Model(r"D:\Voices\vosk-model-small-en-us-0.15")
